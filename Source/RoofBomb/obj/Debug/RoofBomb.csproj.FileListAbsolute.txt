@@ -1,0 +1,5 @@
+C:\Users\mjsku_000\Desktop\RimWorldAlpha11Win\RimWorld834Win\Mods\RoofBomb\Source\RoofBomb\obj\Debug\RoofBomb.csprojResolveAssemblyReference.cache
+C:\Users\mjsku_000\Desktop\RimWorldAlpha11Win\RimWorld834Win\Mods\RoofBomb\Source\RoofBomb\bin\Debug\RoofBomb.dll
+C:\Users\mjsku_000\Desktop\RimWorldAlpha11Win\RimWorld834Win\Mods\RoofBomb\Source\RoofBomb\bin\Debug\RoofBomb.pdb
+C:\Users\mjsku_000\Desktop\RimWorldAlpha11Win\RimWorld834Win\Mods\RoofBomb\Source\RoofBomb\obj\Debug\RoofBomb.dll
+C:\Users\mjsku_000\Desktop\RimWorldAlpha11Win\RimWorld834Win\Mods\RoofBomb\Source\RoofBomb\obj\Debug\RoofBomb.pdb
