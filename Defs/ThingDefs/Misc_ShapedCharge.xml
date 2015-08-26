@@ -43,6 +43,7 @@
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Misc</designationCategory>
+    <researchPrerequisite>ShapedCharges</researchPrerequisite>
   </ThingDef>
 
 </Buildings>
