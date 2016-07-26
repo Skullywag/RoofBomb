@@ -21,7 +21,7 @@
       <texPath>Things/Building/ShapedCharge</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <altitudeLayer>Waist</altitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -39,7 +39,7 @@
     <size>(1,1)</size>
     <costList>
       <Steel>100</Steel>
-      <Components>1</Components>
+      <Component>1</Component>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Misc</designationCategory>

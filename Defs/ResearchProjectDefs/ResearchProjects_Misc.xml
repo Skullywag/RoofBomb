@@ -5,7 +5,8 @@
 		<defName>ShapedCharges</defName>
 		<label>Shaped Charges</label>
 		<description>Allows the use of shaped charges for roof removal purposes.</description>
-		<totalCost>700</totalCost>
+		<baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
 		<prerequisites></prerequisites>
 	</ResearchProjectDef>
 
