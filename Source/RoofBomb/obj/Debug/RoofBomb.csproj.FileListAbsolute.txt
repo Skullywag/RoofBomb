@@ -33,3 +33,15 @@ C:\Users\mjsku\Desktop\RimWorldAlpha14Win\RimWorld1234Win\Mods\RoofBomb\Source\R
 C:\Users\mjsku\Desktop\RimWorldAlpha14Win\RimWorld1234Win\Mods\RoofBomb\Source\RoofBomb\obj\Debug\RoofBomb.csprojResolveAssemblyReference.cache
 C:\Users\mjsku\Desktop\RimWorldAlpha14Win\RimWorld1234Win\Mods\RoofBomb\Source\RoofBomb\obj\Debug\RoofBomb.dll
 C:\Users\mjsku\Desktop\RimWorldAlpha14Win\RimWorld1234Win\Mods\RoofBomb\Source\RoofBomb\obj\Debug\RoofBomb.pdb
+C:\Users\Dario\Desktop\RoofBomb-RoofBomb1.4\Assemblies\RoofBomb.dll
+C:\Users\Dario\Desktop\RoofBomb-RoofBomb1.4\Source\RoofBomb\obj\Debug\RoofBomb.csprojResolveAssemblyReference.cache
+C:\Users\Dario\Desktop\RoofBomb-RoofBomb1.4\Source\RoofBomb\obj\Debug\RoofBomb.csproj.CoreCompileInputs.cache
+C:\Users\Dario\Desktop\RoofBomb-RoofBomb1.4\Source\RoofBomb\obj\Debug\RoofBomb.dll
+C:\Users\Dario\Desktop\RoofBomb-RoofBomb1.7 Dario\Assemblies\RoofBomb.dll
+C:\Users\Dario\Desktop\RoofBomb-RoofBomb1.7 Dario\Source\RoofBomb\obj\Debug\RoofBomb.csprojResolveAssemblyReference.cache
+C:\Users\Dario\Desktop\RoofBomb-RoofBomb1.7 Dario\Source\RoofBomb\obj\Debug\RoofBomb.csproj.CoreCompileInputs.cache
+C:\Users\Dario\Desktop\RoofBomb-RoofBomb1.7 Dario\Source\RoofBomb\obj\Debug\RoofBomb.dll
+C:\Users\Dario\Desktop\RimWorld.Alpha.17.v0.17.1557.rev1150\skidrowgamesreloaded.com\Mods\RoofBomb\Assemblies\RoofBomb.dll
+C:\Users\Dario\Desktop\RimWorld.Alpha.17.v0.17.1557.rev1150\skidrowgamesreloaded.com\Mods\RoofBomb\Source\RoofBomb\obj\Debug\RoofBomb.csprojResolveAssemblyReference.cache
+C:\Users\Dario\Desktop\RimWorld.Alpha.17.v0.17.1557.rev1150\skidrowgamesreloaded.com\Mods\RoofBomb\Source\RoofBomb\obj\Debug\RoofBomb.csproj.CoreCompileInputs.cache
+C:\Users\Dario\Desktop\RimWorld.Alpha.17.v0.17.1557.rev1150\skidrowgamesreloaded.com\Mods\RoofBomb\Source\RoofBomb\obj\Debug\RoofBomb.dll
