@@ -2,7 +2,7 @@
 Adds a roof removal bomb to Rimworld
 
 
-Open the downloaded ZIP archive;
+Open the downloaded ZIP archive;  
 Go to your RimWorld download location;
   Windows:
     Drag and drop the extracted ModName folder into your RimWorld***Win/Mods/ folder (not in Core);
