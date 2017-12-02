@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+	<ResearchProjectDef>
+		<defName>ShapedCharges</defName>
+		<label>Shaped Charges</label>
+		<description>Allows the use of shaped charges for roof removal purposes.</description>
+		<baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+		<prerequisites></prerequisites>
+	</ResearchProjectDef>
+
+</Defs>
