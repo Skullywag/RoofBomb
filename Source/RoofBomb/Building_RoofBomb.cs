@@ -1,60 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Text;
+﻿using System.Collections.Generic;
 using Verse;
-using Verse.AI;
 using UnityEngine;
 using RimWorld;
+
 namespace RoofBomb
 {
     public class Building_RoofBomb : Building
-	{
-
-        public override void SpawnSetup()
-        {
-            base.SpawnSetup();
-        }
-
+    {
         public override IEnumerable<Gizmo> GetGizmos()
         {
-            Command_Action com = new Command_Action();
-
-            com.defaultLabel = "CommandDetonateLabel".Translate();
-            com.icon = ContentFinder<Texture2D>.Get("UI/Commands/Detonate");
-            com.defaultDesc = "CommandDetonateDesc".Translate();
-            com.action = () => Command_Detonate();
-           
-            yield return com;
+            yield return new Command_Action
+            {
+                defaultLabel = "CommandDetonateLabel".Translate(),
+                icon = ContentFinder<Texture2D>.Get("UI/Commands/Detonate"),
+                defaultDesc = "CommandDetonateDesc".Translate(),
+                action = () => Command_Detonate()
+            };
         }
 
         private void Command_Detonate()
         {
-            base.GetComp<CompExplosive>().StartWick();
+            GetComp<CompExplosive>().StartWick();
         }
 
         public override void Destroy(DestroyMode mode = DestroyMode.Vanish)
         {
+            var map = Map; // before Destroy()!
+
             base.Destroy(mode);
-            MoteThrower.ThrowMicroSparks(Position.ToVector3Shifted());
-            if (mode == DestroyMode.Kill)
+            MoteMaker.ThrowMicroSparks(DrawPos, map);
+
+            if (mode != DestroyMode.KillFinalize)
             {
-                foreach (IntVec3 current in GenAdj.CellsAdjacent8WayAndInside(this))
+                return;
+            }
+
+            foreach (var current in this.CellsAdjacent8WayAndInside())
+            {
+                if (map.roofGrid.RoofAt(current) != null) // if there is a roof
                 {
-                    if (current.GetRoof() != null)
-                    {
-                        if (Find.RoofGrid.RoofAt(current).isThickRoof == true)
-                        {
-                            RoofDef roofType = DefDatabase<RoofDef>.GetNamed("RoofRockThin");
-                            Find.RoofGrid.SetRoof(current, roofType);
-                        }
-                        else
-                        {
-                            Find.RoofGrid.SetRoof(current, null);
-                        }
-                    }
+                    map.roofGrid.SetRoof(current, null);
                 }
             }
         }
-	}
+    }
 }
